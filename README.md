@@ -8,4 +8,4 @@ El contenido está cifrado: sin la contraseña no se puede leer ni en la web ni 
 
 ## Para quien lo mantiene
 
-`index.html` lo genera `build_html_unico.py` (repositorio Roicos-Marketing/clientes, carpeta `cafes-bou/dashboard`), que cifra el informe con `cifrar_html.js`. La contraseña está en un fichero local de Daniela, nunca en este repositorio. Cada mes: `python build_html_unico.py "<Mes> <año>"` y después commit y push aquí.
+`index.html` lo genera `build_html_unico.py` (repositorio Roicos-Marketing/clientes, carpeta `cafes-bou/dashboard`), que cifra el informe con `cifrar_html.js`. La contraseña está en un fichero local de quien mantiene el informe, nunca en este repositorio. Cada mes: `python build_html_unico.py "<Mes> <año>"` y después commit y push aquí.
